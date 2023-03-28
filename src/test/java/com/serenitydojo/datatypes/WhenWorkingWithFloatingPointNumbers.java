@@ -14,7 +14,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     @Test
     public void convertToFarenheit() {
         double celcius = 27.0d;
-        double farenheit = 0.0d;
+        double farenheit = 1.8d * celcius + 32;
 
         // TODO: Use a floating point calculation to calculate the farenheit equivalent of the celcius value.
 
@@ -28,7 +28,8 @@ public class WhenWorkingWithFloatingPointNumbers {
     @Test
     public void convertMetersToFeet() {
         int weightInKilograms = 50;
-        double weightInPounds = 0;
+        double poundsInKilograms = 2.20462d;
+        double weightInPounds = weightInKilograms * poundsInKilograms;
 
         // TODO: Use a floating point calculation to calculate the correct weight in pounds
 
